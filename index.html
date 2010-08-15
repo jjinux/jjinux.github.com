@@ -1,9 +1,17 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-  "http://www.w3.org/TR/html40/loose.dtd">
+  "http://www.w3.org/TR/html4/loose.dtd">
+
+<!--
+  If you're reading this, I know how to use more modern approaches to HTML e.g.
+  semantic markup and CSS.  However, I've had this layout forever and it looks
+  good, so I'm not going to mess with it.  At least it validates with no errors
+  ;)
+-->
 
 <html>
 
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
   <title>JJ Behrens</title>
   <style type="text/css">
     body {
@@ -17,6 +25,11 @@
 
     .ehrens {
       font-size: 20pt;
+    }
+
+    dt,
+    dd {
+      padding-bottom: 1em;
     }
   </style>
 </head>
@@ -61,8 +74,7 @@
       <!-- Main content -->
       <table width="100%" cellspacing="0" cellpadding="25" border="0"><tr><td>
 	<p>
-          <b>Status</b> - I have been working at a startup for a while and
-          have not updated my resume.
+          <b>Status</b> - I am looking for a part-time opportunity.
 
 	<p>
           <b>Education</b> - I have a Bachelor of Arts (with honors) in
@@ -71,17 +83,17 @@
           "outstanding scholarship as a mathematics major."  
 
         <p>
-          <b>Profile</b> - My most notable traits as a programmer include:  an
-          incredible dedication to producing clean, well-documented code on
-          time and on budget; a passionate love of programming and especially
-          programming languages; and a commitment to the open source community.
-          I am an extrovert, and I know how to "fight fair."
-
+          <b>Profile</b> - I am an enthusiastic and friendly extrovert.
+          My most notable traits as a programmer include:  an incredible
+          dedication to producing clean, well-documented code on time and on
+          budget; a passionate love of programming and especially programming
+          languages; and a commitment to the open source community.
+          
         <p>
           <b>Career Objective</b> - I would like to program in an innovative,
           results-oriented company where I am required to consistently solve
-          difficult technical problems.  Clean code and a clear direction are
-          the things I look for most in a company.
+          difficult technical problems.  Clean code, a clear direction, and a
+          healthy life balance are the things I look for most in a company.
 
         <p>
           <img src="http://ironorchid.com/jjinux/resume/images/hr.gif" 
@@ -103,13 +115,13 @@
               <li>Erlang:&nbsp;2
               <li>Haskell:&nbsp;3
               <li>Java (AWT, Swing, J2EE, JDBC, RMI, CORBA, Servlets):&nbsp;4
-              <li>JavaScript (DHTML, AJAX):&nbsp;5
-              <li>Lisp (Scheme):&nbsp;3</li>
-              <li>Perl:&nbsp;5
+              <li>JavaScript (DHTML, Ajax):&nbsp;5
+              <li>Lisp (Scheme):&nbsp;3
+              <li>Perl:&nbsp;4
               <li>PHP:&nbsp;5
               <li>Python (cPython and Jython):&nbsp;5
               <li>Ruby:&nbsp;4
-              <li>Shell scripting (sh, bash, make):&nbsp;4
+              <li>Shell scripting (sed, awk, sh, make):&nbsp;4
               <li>x86 Assembler:&nbsp;2
             </ul>
 
@@ -135,14 +147,15 @@
               <li>Django:&nbsp;3</li>
               <li>Dojo Toolkit:&nbsp;3</li>
               <li>Genshi:&nbsp;5
+              <li>Greasemonkey:&nbsp;3
               <li>HTML:&nbsp;5
-              <li>IIS:&nbsp;3
               <li>jQuery:&nbsp;3
+              <li>Mako:&nbsp;3
               <li>Mason:&nbsp;5
               <li>Pylons (committer):&nbsp;5
               <li>Rails:&nbsp;4
               <li>WSGI:&nbsp;4
-              <li>XML (SAX, DOM):&nbsp;3
+              <li>XML (SAX, DOM):&nbsp;4
               <li>Zope and Plone:&nbsp;5
             </ul>
           </td>
@@ -164,10 +177,8 @@
               <b>Databases:</b>
 
             <ul>
-              <li>Access (over ODBC):&nbsp;3
               <li>MySQL:&nbsp;5
-              <li>PostgreSQL:&nbsp;4
-              <li>SQL Server (over ODBC):&nbsp;3
+              <li>PostgreSQL:&nbsp;3
             </ul>
 
             <p>
@@ -185,9 +196,10 @@
 
             <ul>
               <li>CVS (usage and administration):&nbsp;5
+              <li>Darcs (usage and administration):&nbsp;3
               <li>Lex and Yacc (C, OCAML, PLY):&nbsp;4
               <li>Selenium-RC:&nbsp;4
-              <li>Subversion (usage):&nbsp;4
+              <li>Subversion (usage and administration):&nbsp;4
             </ul>
           </td>
         </tr></table>
@@ -195,34 +207,25 @@
         <p>
           <b>Other Programming Skills:</b>
 
-        <table width="100%"><tr>
-          <td valign="top">
-            <ul>
-              <li>Client/server programming:&nbsp;5
-              <li>Compiler and interpreter design:&nbsp;2
-              <li>Design patterns:&nbsp;5
-              <li>Embedded programming:&nbsp;2
-              <li>Facebook APIs (RFacebook, PyFacebook):&nbsp;4
-              <li>Functional programming:&nbsp;4
-              <li>
-                Internationalization (I18N) and localization (L10N) including
-                multi-byte languages, Unicode, and UTF-8:&nbsp;5
-              <li>Kernel programming:&nbsp;2
-              <li>Model view controller (MVC) programming:&nbsp;5
-            </ul>
-          </td>
-
-          <td valign="top">
-            <ul>
-              <li>Multi-threaded programming:&nbsp;4
-              <li>Object oriented programming (OOP):&nbsp;5
-              <li>Peer to peer programming (P2P):&nbsp;3
-              <li>RESTful web services:&nbsp;4
-              <li>RPC Mechanisms (CORBA, XML-RPC, RMI, etc.):&nbsp;4
-              <li>Scalable Internet architectures:&nbsp;3
-            </ul>
-          </td>
-        </tr></table>
+        <ul>
+          <li>Client/server programming:&nbsp;5
+          <li>Compiler and interpreter design:&nbsp;2
+          <li>Design patterns:&nbsp;5
+          <li>Embedded programming:&nbsp;2
+          <li>Facebook APIs (RFacebook, PyFacebook):&nbsp;4
+          <li>Functional programming:&nbsp;4
+          <li>
+            Internationalization (I18N) and localization (L10N) including
+            multi-byte languages, Unicode, and UTF-8:&nbsp;5
+          <li>Kernel programming:&nbsp;2
+          <li>Model view controller (MVC) programming:&nbsp;5
+          <li>Multi-threaded programming:&nbsp;4
+          <li>Object oriented programming (OOP):&nbsp;5
+          <li>Peer-to-peer programming (P2P):&nbsp;3
+          <li>RESTful web services:&nbsp;5
+          <li>RPC mechanisms (CORBA, XML-RPC, RMI, etc.):&nbsp;4
+          <li>Scalable Internet architectures:&nbsp;4
+        </ul>
 
         <p>
           <b>Articles:</b> 
@@ -253,7 +256,7 @@
         <ul>
           <li><a href="http://www.packtpub.com/expert-python-programming/book">Expert Python Programming</a></li>
 
-          <li><a href="http://www.amazon.com/Python-Unix-Linux-System-Administration/dp/0596515820/ref=sr_1_1?ie=UTF8&s=books&qid=1220504064&sr=8-1">Python for Unix and Linux System Administration</a></li>
+          <li><a href="http://www.amazon.com/Python-Unix-Linux-System-Administration/dp/0596515820/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1220504064&amp;sr=8-1">Python for Unix and Linux System Administration</a></li>
 
           <li><a href="http://www.amazon.com/Core-Python-Programming-Wesley-Chun/dp/0132269937/sr=8-1/qid=1162320048/ref=pd_bbs_sr_1/002-8486484-7768856?ie=UTF8&amp;s=books">Core Python Programming</a></li>
 
@@ -282,8 +285,7 @@
             open source Web application framework written in Python.  Aquarium
             was mentioned in <a
             href="http://www.oreilly.com/catalog/oracleopen/"
-              >Oracle and Open Source</a>, published by O'Reilly.  Aquarium is
-            in production all over the world.
+              >Oracle and Open Source</a> and is in use all over the world.
             
           <li>
             I was the coauthor of <a
@@ -300,193 +302,137 @@
         <p>
           <b>Employment History:</b>
 
-        <!--
-          This is for my own reference, but there's no need to call attention
-          to it.
+        <dl>
+          <dt>
+            <b>3/2008 to current</b> - 24 Hr. Diner (a three-person startup)
+            <!-- 1442 A Walnut St. #321, Berkeley, CA  94709 -->
+          </dt>
 
-          <p>
-            <b>11/2007 to 2/2008</b> - Metaweb Technologies, 631 Howard St.,
-            San Francisco, CA  94105.
+          <dd>
+            Senior software engineer.  Architected and built a general-purpose
+            recommendation system similar to Amazon's system using Linux, Nginx,
+            MySQL, and Python.
+          </dd>
 
-          <p>Senior software engineer.
+          <!--
+            This is for my own reference, but there's no need to call attention
+            to it.
 
-          <ul>
-            <li>
-              Refactored the autocomplete subsystem which was written in
-              Python.
-          </ul>
-        -->
+            <dt>
+              <b>11/2007 to 2/2008</b> - Metaweb Technologies
+              <!- - 631 Howard St., San Francisco, CA  94105 - ->
+            </dt>
 
-        <p>
-          <b>7/2007 to 11/2007</b> - MultiCosmic (a two-person Facebook 
-          startup).
+            <dd>
+              Senior software engineer.  Refactored the autocomplete subsystem
+              which was written in Python.
+            </dd>
+          -->
 
-        <p>
-          Senior software engineer.
+          <dt>
+            <b>7/2007 to 11/2007</b> - MultiCosmic (a two-person Facebook 
+            startup)
+          </dt>
 
-        <ul>
-          <li>
-            I built a Facebook app called 
-            <a href="http://www.facebook.com/apps/application.php?api_key=2f1c31d639cadf86f22e198d2fdd1694">Free or Best Offer</a>.  I used Ruby on Rails,
-            RFacebook, and MySQL on Linux.
+          <dd>
+            Senior software engineer.  Built a Facebook app called Free or Best
+            Offer using Linux, MySQL, Ruby on Rails, and RFacebook.
+          </dd>
 
-          <li>
-            I added WSGI and Pylons support to PyFacebook.
-        </ul>
+          <dt>
+            <b>8/2006 to 5/2007</b> - Foxmarks Inc. (a startup by Mitch Kapor)
+            <!-- 543 Howard St., San Francisco, CA  94105 -->
+          </dt>
 
-        <p>
-          <b>8/2006 to 5/2007</b> - Foxmarks Inc. (a startup by Mitch Kapor),
-          543 Howard St., San Francisco, CA 94105.
+          <dd>
+            Senior software engineer.  Built
+            <a href="http://www.foxmarks.com">www.foxmarks.com</a> (the
+            corporate website),
+            <a href="http://login.foxmarks.com">login.foxmarks.com</a> (the
+            account management application), and
+            <a href="http://my.foxmarks.com">my.foxmarks.com</a> (used to view
+            your bookmarks online) using Linux, MySQL, Python, Pylons, and
+            Genshi.
+          </dd>
 
-        <p>
-          Senior software engineer.
+          <dt>
+            <b>1/2004 to 8/2006</b> - IronPort Systems (a startup acquired
+            by Cisco)
+            <!-- 950 Elm Ave., San Bruno, CA  94066 -->
+          </dt>
 
-        <ul>
-          <li>
-            I built <a href="http://www.foxmarks.com">www.foxmarks.com</a>, <a
-            href="http://login.foxmarks.com">login.foxmarks.com</a> (the
-            account management application), and <a
-            href="http://my.foxmarks.com">my.foxmarks.com</a> (used to
-            view your bookmarks online).  I built these in Python using Pylons,
-            Genshi, and MySQL on Linux.  I also did quite a bit of work on
-            projects that have not been released yet.
+          <dd>
+            UI Platform Engineer within the Architecture and Platform
+            Engineering Group.  My Web application framework, Aquarium, was
+            officially adopted across the entire organization.  Architected the
+            user interface to configure the email gateway appliance, including
+            centralized management and localization to eight languages.  (The
+            user interface alone consisted of over a quarter of a million lines
+            of code.)  Built a Web server named Glass that could run under
+            stackless Python with coroutines.  Was responsible for the common
+            look-and-feel of IronPort applications across the company.
+          </dd>
 
-          <li>
-            I served as the "Web framework guy" and local Python expert.
-        </ul>
+          <dt>
+            <b>8/2001 to 12/2003</b> - NTT Multimedia Communications Laboratory
+            <!-- 250 Cambridge Ave., Suite 300, Palo Alto, CA  94306 -->
+          </dt>
 
-        <p>
-          <b>1/2004 to 8/2006</b> - IronPort Systems (acquired by Cisco), 950
-          Elm Ave., San Bruno, CA  94066.
+          <dd>
+            Software engineer.  Worked (sometimes in a team, usually alone) on
+            a wide range of research and development projects using: Perl,
+            Ruby, C, C++, sh, Jython, Tk, QT, KDE, Swing, Zope, Mason,
+            mod_perl, IPv6, HTTP, SSL, XML-RPC, Linux, FreeBSD, XML, PGP,
+            Apache, PostgreSQL, client/server programming, multi-threaded
+            programming, peer-to-peer programming, and I18N.
+          </dd>
 
-        <p>
-          I was the UI Platform Engineer within the Architecture and Platform
-          Engineering Group.
+          <dt>
+            <b>9/2000 to 5/2001</b> - Echobridge
+            <!-- 305 Grant Ave., 8th Floor, San Francisco, CA  94108 -->
+          </dt>
 
-        <ul>
-          <li>
-            My Web application framework, Aquarium, was officially adopted
-            across the entire organization.
+          <dd>
+            Programmer 2.  Built Catholic Healthcare West's website using
+            Python, MySQL, SQL Server, Apache, Linux, and Aquarium.
+          </dd>
 
-          <li>
-            I architected the user interface to configure the email gateway
-            appliance, including centralized management and localization to
-            eight languages.  It consists of over a quarter of a million lines
-            of code.
+          <dt>
+            <b>6/1999 to 9/2000</b> - Clear Ink
+            <!-- 3000 Oak Road, Floor 6, Walnut Creek, CA  94596 -->
+          </dt>
 
-          <li>
-            I built a Web server named Glass that could run under stock Python
-            or stackless Python with coroutines.
-          
-          <li>I was responsible for the common look-and-feel.
-        </ul>
+          <dd>
+            Web Engineer 2.  Worked on multiple ecommerce sites using PHP,
+            MySQL, Solaris, and NT.
+          </dd>
 
-        <p>
-          <b>8/2001 to 12/2003</b> - NTT Multimedia Communications Laboratory, 
-          250 Cambridge Ave., Suite 300, Palo Alto, CA  94306.
+          <dt>
+            <b>1/1998 to 4/1998</b> - Sun Microsystems
+            <!-- 901 San Antonio Road, Palo Alto, CA  94303 -->
+          </dt>
 
-        <p>
-          I did research and development for the IPv6 and wireless groups.
-          Because of a non-disclosure agreement, I must purposely be vague:
+          <dd>
+            Resolution coordinator intern.  Provided technical support over the
+            phone to other members of Sun Microsystems using Solaris.  
+          </dd>
 
-        <ul>
-          <li>Project 1 used Perl, Ruby, and Tk.
+          <dt>
+            <b>11/1997 to 5/1999</b> - Saint Mary's College of California
+            <!-- Moraga, CA  94575 -->
+          </dt>
 
-          <li>Projects 2 and 3 used QT, KDE, sh, C, C++, and MVC.
-
-          <li>Project 4 was a custom Linux distribution.
-
-          <li>
-            Project 5 used Jython, Swing, client/server programming, and 
-            multi-threaded programming.
-
-          <li>
-            Project 6 used Zope, XML-RPC, Jython, Swing, client/server
-            programming, and multi-threaded programming.
-
-          <li>
-            Project 7 used Zope, XML-RPC, Jython, Swing, client/server
-            programming, peer to peer programming, and multi-threaded 
-            programming.
-
-          <li>
-            Project 8 used Perl, XML, PGP, HTTP, SSL, and client/server
-            programming. 
-
-          <li>
-            Project 9 used Apache, Mason, mod_perl, Perl, Unicode, UTF-8, 
-            PostgreSQL, and FreeBSD.  It was fully internationalized.  I acted
-            as the framework architect, including the internationalization
-            portions.
-        </ul>
-
-        <p>
-          <b>9/2000 to 5/2001</b> - Echobridge, 305 Grant Ave., 8th Floor, San 
-          Francisco, CA  94108.
-
-        <p>
-          Programmer 2.
-          
-        <ul><li>
-          Technical lead on www.chwbay.org.  Catholic Healthcare West's (Bay
-          region) site was a half-million dollar Web application that used
-          Aquarium, Piranha, Python, MySQL, SQL Server, Apache, and Linux.  I
-          also served as the local office's programming language guru and Unix
-          system administrator.
-        </ul>
+          <dd>
+            Group tutorial leader.  Tutored groups of three to fifteen students
+            who were learning Turbo Pascal, C++, and x86 assembler.
+          </dd>
+        </dl>
 
         <p>
-          <b>6/1999 to 9/2000</b> - Clear Ink, 3000 Oak Road, Floor 6, Walnut
-          Creek, CA  94596.
-
-        <p>
-          Web Engineer 2.  I was technical lead on the following projects:
-
-        <ul>
-          <li>
-            Restoration Hardware: <a href="http://www.restorationhardware.com"
-              >www.restorationhardware.com</a> (during maintenance and site 
-            reconstruction).  Restoration Hardware's site used PHP, MySQL, and
-            Solaris.
-
-          <li>
-            Dantz: <a href="http://www.dantz.com"
-              >www.dantz.com</a> (during maintenance).  Dantz's site used PHP, 
-            MySQL, and Windows NT.
-
-          <li>  
-            Clear Ink: <a href="http://www.clearink.com"
-              >www.clearink.com</a> (during site construction).  Clear Ink's 
-            site used PHP, MySQL, and Solaris.
-        </ul>
-
-        <p>
-          <b>1/1998 to 4/1998</b> (internship) - Sun Microsystems, Inc., 901
-          San Antonio Road, Palo Alto, CA  94303.
-
-        <p>
-          Resolution coordinator.
-          
-        <ul><li>
-          I provided technical support and resolution coordination via
-          telephone to members of Sun Microsystems using Solaris.  
-        </ul>
-
-        <p>
-          <b>11/1997 to 5/1999</b> - Saint Mary's College of California,
-          Moraga, CA 94575.
-
-        <p>
-          Group tutorial leader.
-          
-        <ul><li>
-          I was lead computer programming tutor for groups of three to fifteen
-          students studying C++, Turbo Pascal, and x86 assembler.
-        </ul>
-
-        <p>
-          <i>I will proudly provide sample code and references upon
-          request.</i>
+          <i>Here is some
+          <a href="http://jjinux.blogspot.com/2007/09/python-pyweek.html">
+            sample code</a>.
+          References are available upon request.</i>
       </td></tr></table>
     </td>
     <!-- End main content -->
