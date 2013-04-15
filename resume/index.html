@@ -27,8 +27,18 @@
     }
 
     dt,
-    dd {
+    dd,
+    ul.spacious li {
       padding-bottom: 1em;
+    }
+
+    ul.spacious li:last-child {
+      padding-bottom: 0em;
+    }
+
+    dt.not-spacious,
+    dd.not-spacious {
+      padding-bottom: 0em;
     }
   </style>
 </head>
@@ -78,15 +88,15 @@
           the pleasure of reading</i> &mdash;
           Patrick Tufts, co-founder of 24 Hr. Diner
 
-	<p>
-          <b>Status</b> - I just accepted an offer from Google.
+      	<p>
+          <b>Status</b> - I am currently working at Google.
           <!--
             I am looking for a new opportunity in San Francisco or
             the East Bay.  I enjoy coding in Python and Ruby as well as less
             popular languages such as Scala, Haskell, and Erlang.
           -->
 
-	<p>
+        <p>
           <b>Education</b> - I have a Bachelor of Arts (with honors) in
           mathematics with a concentration in computer science from St. Mary's
           College of California.  I won the Br. Alfred Brousseau award for
@@ -123,10 +133,11 @@
               <li>ActionScript (AS3):&nbsp;3
               <li>C:&nbsp;4
               <li>C++:&nbsp;3
+              <li>Dart:&nbsp;5
               <li>Erlang:&nbsp;2
               <li>Haskell:&nbsp;3
               <li>Java:&nbsp;3
-              <li>JavaScript (Ajax):&nbsp;4
+              <li>JavaScript:&nbsp;4
               <li>Perl:&nbsp;4
               <li>PHP:&nbsp;5
               <li>Python:&nbsp;5
@@ -151,13 +162,13 @@
               <b>Web Programming:</b>
 
             <ul>
-              <li>Apache:&nbsp;5
+              <li>Apache:&nbsp;4
               <li>CSS:&nbsp;4
               <li>Django:&nbsp;3</li>
-              <li>HTML (XHTML):&nbsp;5
+              <li>HTML (XHTML, HTML5):&nbsp;4
               <li>jQuery:&nbsp;4
               <li>nginx:&nbsp;4
-              <li>Pylons (contributor):&nbsp;5
+              <li>Pylons (contributor):&nbsp;4
               <li>Rails:&nbsp;4
               <li>Twisted:&nbsp;3
               <li>XML (SAX, DOM):&nbsp;4
@@ -176,6 +187,13 @@
               <li>SDL and PyGame:&nbsp;4
               <li>Tk (Perl, Ruby, Python):&nbsp;4
               <li>XUL:&nbsp;3
+            </ul>
+
+            <p>
+              <b>Mobile Development:</b>
+
+            <ul>
+              <li>Android:&nbsp;3
             </ul>
 
             <p>
@@ -266,6 +284,8 @@
           <b>Technical Editing:</b>
 
         <ul>
+          <li><a href="http://www.amazon.com/Dart-Up-Running-Kathy-Walrath/dp/1449330894/ref=sr_1_2?ie=UTF8&qid=1366047846&sr=8-2&keywords=dart+kathy">Dart: Up and Running</a></li>
+
           <li><a href="http://www.packtpub.com/expert-python-programming/book">Expert Python Programming</a></li>
 
           <li><a href="http://www.amazon.com/Python-Unix-Linux-System-Administration/dp/0596515820/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1220504064&amp;sr=8-1">Python for Unix and Linux System Administration</a></li>
@@ -281,6 +301,10 @@
           <b>Other Achievements:</b>
 
         <ul>
+          <li>
+            My work with Jeffrey Posnick on "Party Playlist Picker" led to a patent
+            application for realtime YouTube playlist collaboration.
+
           <li>
             I maintain a popular <a href="http://jjinux.blogspot.com">blog</a>,
             and I've spoken at most of the nearby Python and Ruby groups.
@@ -324,7 +348,139 @@
           <b>Employment History:</b>
 
         <dl>
-          <!-- My start date at Google was 5/9/2011. -->
+          <dt class="not-spacious">
+            <b>5/2011 to current</b> - Google
+            <!-- My start date at Google was 5/9/2011. -->
+            <!-- 1600 Amphitheatre Parkway, Mountain View, CA 94043 -->
+          </dt>
+
+          <dd class="not-spacious">
+            <p>
+              <b>Q2 2013 - Q2 2013</b> (and previously as a 20% contributor)<br>
+              Senior Developer Advocate for Dart
+            </p>
+
+            <ul class="spacious">
+              <li>
+                Gave talks about Dart.
+
+                Gave 7 international talks in 6 countries.
+
+                Gave 9 talks locally.
+
+              <li>
+                Wrote open source code.
+
+                Developed
+                <a href="https://github.com/dart-lang/doc-code-merge">doc-code-merge</a>
+                and led development of
+                <a href="https://github.com/dart-lang/doc-code-verify">doc-code-verify</a>
+                to make sure our Dart documentation is always accurate.
+
+                Led a project called
+                <a href="http://news.dartlang.org/2013/01/more-dart-html5-goodness.html">dart-html5-samples</a>
+                to port samples from HTML5 Rocks into Dart. The samples are linked
+                to from the welcome page of Dart Editor.
+
+                Worked with another developer to build a project called
+                <a href="http://news.dartlang.org/2013/03/irrduino-sprinkler-system-built-using.html">Irrduino</a>.
+                The frontend that I built in Dart looks like Farmville, but it
+                actually controls a real sprinkler system.
+
+                Built <a href="https://code.google.com/p/tetris-in-dart/">Tetris in Dart</a>
+                only a month after Dart was first announced.
+
+              <li>
+                Advocated for Dart using video.
+
+                Hosted or helped host 7 episodes of Dartisans for Google Developers Live.
+                We've gotten over 11k views for just those 7 episodes.
+
+                Gave a talk on Dart <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=YdzSdWUkA5s">in Spanish</a> that
+                resulted in 1.8k views and 166 hours of watch time. This took a
+                lot of effort since I am not a native Spanish speaker.
+
+                Created a screencast on using
+                <a href="http://news.dartlang.org/2013/02/dart-with-google-web-toolkit.html">Dart with GWT</a> that got 1.7k views and 161 hours of watch time.
+
+                Created a video about
+                <a href="http://news.dartlang.org/2013/03/irrduino-sprinkler-system-built-using.html">Irrduino</a> that resulted in 6k views and 200 hours of watch time.
+
+                Spoke remotely at 3 DevFests for a total of 300 attendees.
+
+              <li>
+                Wrote blog posts about Dart.
+
+                Wrote the most popular blog posts on Dart two quarters in a row thanks to
+                my blog posts on
+                <a href="http://news.dartlang.org/2012/10/the-dart-team-welcomes-typescript.html">TypeScript</a>
+                and
+                <a href="http://news.dartlang.org/2013/01/more-dart-html5-goodness.html">
+                dart-html5-samples</a>.
+            </ul>
+
+            <p>
+              <b>Q2 2011 - Q2 2012</b> (and afterwards as a 20% contributor)<br>
+              Senior Developer Advocate for YouTube APIs
+            </p>
+
+            <ul class="spacious">
+              <li>    
+                Advocated for YouTube APIs. Spoke about YouTube APIs at 9 international
+                events in 8 countries. Spoke at 15 local events. Won a peer bonus for
+                giving 3 talks in one trip to Egypt. Wrote 5 blog posts for the YouTube
+                API blog. I was the host for 9 episodes of YouTube Developers Live,
+                which resulted in 16k views.
+
+              <li>    
+                Jarek Wilkiewicz and I decreased the average customer wait
+                time for the partner support queue by 300% in one quarter.
+                Worked with Jarek Wilkiewicz to gain a total of 10 commitments
+                for various YouTube API launches. In particular, worked with 6
+                different partners as they integrated with YouTube.com/create.
+                Had 56 partner meetings in which I solved problems, gathered
+                feedback, and garnered integrations.
+                
+              <li>
+                Gave two webinars for Google I/O. My webinar "Using Ruby on Rails and
+                YouTube APIs for Educational Apps" currently has 64k views and is our
+                most successful Google Developers Live video. My webinar "YouTube for Your
+                Business" currently has 8,500 views.
+
+              <li>
+                Built Quizzimoto, an open source application that I used as the basis for
+                my talk "Using Ruby on Rails and YouTube APIs for Educational Apps" talk.
+                Also used it to give a talk at two local Ruby users groups, including a
+                talk at Pivotal Labs
+
+              <li>
+                Worked with Jeffrey Posnick to build Party Playlist Picker. It's an open
+                source Google App Engine application written in Python that lets users
+                collaboratively edit a YouTube playlist in realtime.  My blog post about
+                it has been read by over 3k people. Our Google Developers Live video for
+                it has gotten over 1k views. My team members liked the way I structured
+                the code so much that they used the same structure in their other Python
+                applications.
+
+              <li>
+                Provided technical support for business development in
+                meetings with game publishers. I've met with roughly 15
+                partners including one that is one of Google's largest
+                advertising partners. This had a direct impact on Google's
+                bottom line.
+
+              <li>    
+                Open sourced numerous sample projects written in Python, Ruby, PHP, Dart,
+                JavaScript, and Java (for Android).
+
+              <li>
+                In the last year, I've written 61 technical blog posts on my personal
+                blog. I get 10k page views a month. I have 1k subscribers on Google
+                Reader, but I'm also aggregated into Python Planet which has 4300
+                subscribers on Google Reader. I have 5400 followers on G+ as of September
+                2012.
+            </ul>
+          </dd>          
 
           <dt>
             <b>10/2010 to 3/2011</b> - Twilio (a web services startup)
@@ -483,10 +639,15 @@
         <p>
           <i>
             Here is some sample code written in
-            <a href="http://jjinux.blogspot.com/2007/09/python-pyweek.html">Python</a>
+            <a href="http://jjinux.blogspot.com/2007/09/python-pyweek.html">Python</a>,
+            <a href="http://jjinux.blogspot.com/2010/10/ruby-phone-based-adventure-game.html">Ruby</a>, and
+            <a href="https://github.com/dart-lang/doc-code-merge">Dart</a>.
+
+            Here are my <a href="https://github.com/jjinux">GitHub</a>,
+            <a href="https://code.google.com/u/115478738847874567952/">Google Code</a>,
             and
-            <a href="http://jjinux.blogspot.com/2010/10/ruby-phone-based-adventure-game.html">Ruby</a>.
-            Here is my <a href="https://github.com/jjinux">GitHub</a> account.
+            <a href="http://stackoverflow.com/users/466472/shannon-jj-behrens">Stack Overflow</a> accounts.
+
             References are available upon request.
           </i>
       </td></tr></table>
