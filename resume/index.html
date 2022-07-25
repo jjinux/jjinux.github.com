@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JJ Behrens</title>
   <style>
     body {
@@ -77,6 +78,23 @@
 
       #main-content {
         box-shadow: none;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      body {
+        margin: 0;
+      }
+
+      #main-content {
+        box-shadow: none;
+        width: 100%;
+      }
+
+      .left-column,
+      .right-column {
+        float: none;
+        width: 100%;
       }
     }
   </style>
